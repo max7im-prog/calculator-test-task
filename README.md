@@ -23,7 +23,7 @@ To unlock the **Secret Menu**, follow these steps:
 ### **Build Instructions**  
 
 # Clone the repository
-git clone https://github.com/your-username/calculator-test-task.git  
+git clone https://github.com/max7im-prog/calculator-test-task.git 
 cd calculator-test-task
 
 # Create a build directory
