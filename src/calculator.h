@@ -21,8 +21,9 @@ public:
     Q_INVOKABLE void fraq();
     Q_INVOKABLE void mul();
     Q_INVOKABLE void percent();
-    Q_INVOKABLE void plusMinus();
+    Q_INVOKABLE void signToggle();
     Q_INVOKABLE void brackets();
+    Q_INVOKABLE void decimalPoint();
     Q_INVOKABLE void num(int n);
     Q_INVOKABLE void clear();
 

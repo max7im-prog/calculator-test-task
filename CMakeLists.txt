@@ -17,6 +17,8 @@ qt_add_executable(appcalculator-test-task
     src/main.cpp
     src/calculator.h
     src/calculator.cpp
+    src/secretMenu.h
+    src/secretMenu.cpp
 )
 
 qt_add_qml_module(appcalculator-test-task
@@ -24,10 +26,12 @@ qt_add_qml_module(appcalculator-test-task
     VERSION 1.0
     QML_FILES
         src/Main.qml
-    # SOURCES src/calculator.cpp src/ calculator.h
+        src/SecretMenuPage.qml
 )
 
 target_include_directories(appcalculator-test-task PRIVATE ${CMAKE_SOURCE_DIR}/src)
+
+target_include_directories(appcalculator-test-task PRIVATE ${CMAKE_SOURCE_DIR}/external/exprtk)
 
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
