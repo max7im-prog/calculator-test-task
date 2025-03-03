@@ -16,7 +16,7 @@ To unlock the **Secret Menu**, follow these steps:
 
 ## **Installation & Setup**  
 ### **Prerequisites**  
-- **Qt 6+** (with QtQuick & QtQuick.Controls modules)  
+- **Qt 6.7.2+** (with QtQuick & QtQuick.Controls modules)  
 - **CMake 3.16+**  
 - **C++17+**  
 
